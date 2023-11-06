@@ -12,29 +12,30 @@
     <script src = "main.js" defer></script>
 </head>
 <body>
-    <nav class = "navbar">
-        <div class = "navbar_logo">
-            <i class="fa-solid fa-shapes"></i>
-            <a href="index.html">오궁오궁</a>
-        </div>
-
-        <ul class = "navbar_menu">
-            <li><a href="경복궁.html">경복궁</a></li>
-            <li><a href="경희궁.html">경희궁</a></li>
-            <li><a href="덕수궁.html">덕수궁</a></li>
-            <li><a href="창경궁.html">창경궁</a></li>
-            <li><a href="창덕궁.html">창덕궁</a></li>
-        </ul>
-
-        <ul class = "navbar_icons">
-            <li><i class="fa-brands fa-instagram"></i></li>
-            <li><i class="fa-brands fa-line"></i></li>
-        </ul>
-
-        <a href = "#" class = "navbar_toggleBtn">
-            <i class="fa-solid fa-bars"></i>
-        </a>
-</nav>
+  <nav class = "navbar">
+    <div class = "navbar_logo">
+        <i class="fa-solid fa-shapes"></i>
+        <a href="index.html">오궁오궁</a>
+    </div>
+  
+    <ul class = "navbar_menu">
+        <li><a href="경복궁.html">경복궁</a></li>
+        <li><a href="경희궁.html">경희궁</a></li>
+        <li><a href="덕수궁.html">덕수궁</a></li>
+        <li><a href="창경궁.html">창경궁</a></li>
+        <li><a href="창덕궁.html">창덕궁</a></li>
+    </ul>
+  
+    <ul class = "navbar_icons">
+        <li><a href ="#"><img src = "img/korea_flag.png"  style = "width: 30px; height : 20px;"><br>KOR</a></li>
+        <li><a href ="#"><img src = "img/japan_flag.png" href ="#" style = "width: 30px; height : 20px;"><br>JPA</a></li>
+        <li><a href ="#"><img src = "img/vietnam_flag.png" href ="#" style = "width: 30px; height : 20px;"><br>VIET</a></li>
+    </ul>
+  
+    <a href = "#" class = "navbar_toggleBtn">
+        <i class="fa-solid fa-bars"></i>
+    </a>
+  </nav>
 
 <aside class="side-bar" style = "color : black;">
     <section class="side-bar__icon-box">
@@ -87,30 +88,52 @@
       </li>
     </ul>
   </aside>
+        <div class = "article">
+          <h2 style = "text-align:center; margin : 30px;"> 경복궁 </h2>
 
-
-    <div class = "article">
-        <h3 style = "text-align:center;">설명 페이지</h3>
-        <div class = "article_img">
-            <img src = "경복궁_커버.jpg" style = "width :700px; float: left;">
+          <div class="slideshow-container">
+            <div class="mySlides">
+                <img src="img/경복궁.jpg" alt="Image 1">
+                <div class="text">경복궁</div>
+            </div>
+        
+            <div class="mySlides">
+                <img src="img/korea_flag.png" alt="Image 2">
+                <div class="text">정전</div>
+            </div>
+        
+            <div class="mySlides">
+                <img src="img/korea_flag.png" alt="Image 3">
+                <div class="text">편전영역</div>
+            </div>
+        
+            <!-- 이전/다음 버튼 -->
+            <a class="prev" onclick="plusSlides(-1)">&#9665;</a>
+            <a class="next" onclick="plusSlides(1)">&#9655;</a>
         </div>
-    
-        <div class = "article_explain">
-            <span>조선 왕조 제일의 법궁</span>으로 궁궐 안에는 왕과 관리들의 정무 시설,왕족들의 생활 공간,휴식
-            을 위한 후원 공간이 조성되어 있다.중심부는 대칭적인 구도로 건축하고,나머지는 비대칭적 으로 배치하여
-            변화와 통일의 아름다움을 함께 갖춰져 있다.<br>
-            <span>광화문 </span>: 경복궁의 정문으로 3개의 문(홍예문)으로 이루어져 있다.중앙의 문은 왕이,
-            좌우의 문은 왕세자와 신하들이 출입하는 곳이다.<br>
-            <span>근정전</span> : 경복궁의 정전으로 왕이 신하들의 조하(=조회의식)를 받거나 외국사신을 맞이하는 
-            국가의 중대한 의식이 거행된 곳이다<br>
+
+            <div class = "article_explain">
+                <br>  <span>조선 왕조 제일의 법궁</span>으로 궁궐 안에는 왕과 관리들의 정무 시설,왕족들의 생활 공간,휴식
+                을 위한 후원 공간이 조성되어 있다.중심부는 대칭적인 구도로 건축하고,나머지는 비대칭적 으로 배치하여
+                변화와 통일의 아름다움을 함께 갖춰져 있다.<br>
+                <span>광화문 </span>: 경복궁의 정문으로 3개의 문(홍예문)으로 이루어져 있다.중앙의 문은 왕이,
+                좌우의 문은 왕세자와 신하들이 출입하는 곳이다.<br>
+                <span>근정전</span> : 경복궁의 정전으로 왕이 신하들의 조하(=조회의식)를 받거나 외국사신을 맞이하는 
+                국가의 중대한 의식이 거행된 곳이다<br>
+            </div>
+
+            <div class="jb-division-line"></div>
+
+            <div class = "article_map">
+              <h3>찾아오는 길<br></h3>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101182.6419741425!2d126.82460569726564!3d37.57961700000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2c74aeddea1%3A0x8b3046532cc715f6!2z6rK967O16raB!5e0!3m2!1sko!2skr!4v1698650456442!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <p style = "text-align: center;">간단한설명 : 내용입력하기 <br>내용입력</p>
+            </div>
+
         </div>
-    </div>
 
 
-    <div class = "article_map">
-        <h3>찾아오는 길<br></h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101182.6419741425!2d126.82460569726564!3d37.57961700000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2c74aeddea1%3A0x8b3046532cc715f6!2z6rK967O16raB!5e0!3m2!1sko!2skr!4v1698650456442!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
+
 
 </body>
 </html>
